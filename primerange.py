@@ -5,5 +5,5 @@ for num in range(f,s+1):
            if (num % i) == 0:  
                break  
        else:  
-           print(num,'\n')
+           print(num,end=" ")
            #tont
