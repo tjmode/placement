@@ -1,7 +1,8 @@
 n=int(input())
-a=[]
-for _ in range(n):
-    x=int(input())
-    a.append(x)
-a.sort()
-print(a, end="")
+a=list(map(int,input().split()))
+b=sorted(a)
+for i in range(0,len(a)):
+    if(i==len(a)):
+        print(b[i],end="")
+    else:
+        print(b[i],end=" ")
