@@ -1,4 +1,3 @@
-s=int(input())
-i=int(input())
-c=s**i
+a=list(map(int,input().split()))
+c=a[0]**a[1]
 print(c)
