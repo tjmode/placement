@@ -1,3 +1,3 @@
-s=input()
-print(len(s.split()))
+fail=input()
+print(len(fail.split()))
 #tony
