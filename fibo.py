@@ -7,4 +7,7 @@ while n<s:
     a=b
     b=c
     n=n+1
-print(c)
+    if n==s:
+        print(c)
+    else:
+        print(c,end=" ")
