@@ -1,2 +1,2 @@
-s = 'I am having a very nice day.'
+s=input()
 print(len(s.split()))
