@@ -11,3 +11,4 @@ while a>n:
     else:
         print(s,end=" ")
     a=a//10
+#lkdfj
