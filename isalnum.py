@@ -1,5 +1,5 @@
 a=input()
 if a.isalnum():
-    print("yes")
+    print("Yes")
 else:
-    print("no")
+    print("No")
