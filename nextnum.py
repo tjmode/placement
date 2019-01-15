@@ -1,2 +1,3 @@
 s=int(input())
 print(s+1)
+#tony the failure
