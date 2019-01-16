@@ -1,7 +1,11 @@
-s=int(input())
-if s==1:
-    print("yes")
-elif s%2==0:
-    print("yes")
+#primetony2
+num = int(input())
+if num <=1000:
+   for i in range(2,num):
+       if (num % i) == 0:
+           print("no")
+           break
+   else:
+       print("yes")
 else:
-    print("no")
+   print("no")
