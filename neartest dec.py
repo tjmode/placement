@@ -1,2 +1,2 @@
-s=float(input())
-print(round(s)+1)
+a=list(map(int,input().split(".")))
+print(a[0]+1)
