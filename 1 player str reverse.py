@@ -1,3 +1,3 @@
-s="aabbcc"
+s=input()
 print(s[::-1])
 #tgjknc
