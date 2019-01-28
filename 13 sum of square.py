@@ -1,4 +1,4 @@
-a=19
+a=int(input())
 s=0
 while a>0:
     b=a%10
