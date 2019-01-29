@@ -11,9 +11,13 @@ for i in s:
 m="".join(set(d))
 o=sorted(m)
 g=0
-for y in o:
-    if g==len(o)-1:
-        print(y,end="")
-    else:
-        g=g+1
-        print(y,end=" ")
+if o==[]:
+    print("unique")
+else:
+    for y in o:
+        if g==len(o)-1:
+            print(y,end="")
+        else:
+            g=g+1
+            print(y,end=" ")
+    
