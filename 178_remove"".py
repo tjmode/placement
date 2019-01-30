@@ -1,3 +1,3 @@
 h2=input()
-d=h.replace(" ","")
+d=h2.replace(" ","")
 print(d.strip())
