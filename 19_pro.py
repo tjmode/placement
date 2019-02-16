@@ -9,9 +9,7 @@ for i in range(s):
 for j in n:
     for q in j:
         m.append(q)
-
 m.sort()
-print(len(m))
 for t in m:
     s1=s1+1
     if (s1==len(m)):
