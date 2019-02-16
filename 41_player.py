@@ -3,3 +3,4 @@ if n%k==0:
     print("yes")
 else:
     print("no")
+#ynot
