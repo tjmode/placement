@@ -9,6 +9,7 @@ b.sort()
 if b==[]:
     print("-1")
 for i1 in b:
+    c=c+1
     if c==len(b)-1:
         print(i1,end="")
     else:
