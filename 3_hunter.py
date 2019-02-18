@@ -6,6 +6,8 @@ for i in range(0,len(a)):
     if a[i]==i:
         b.append(a[i])
 b.sort()
+if b==[]:
+    print("-1")
 for i1 in b:
     if c==len(b)-1:
         print(i1,end="")
