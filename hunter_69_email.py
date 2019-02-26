@@ -8,7 +8,7 @@ d=s.split('@')
 d2=d[1].split(".")
 if len(d[0])>=3 :
        p=p+1
-if len(d2[0])==4:
+if (len(d2[0])==4)or (len(d2[2])==5):
     a=a+1
 if d2[1]=="com":
     e=e+1
