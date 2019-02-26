@@ -1,3 +1,4 @@
+z=int(input())
 s=list(map(int,input().split()))
 d=[]
 f=[]
@@ -18,4 +19,3 @@ for j in d:
     if j==f[len(f)-1]:
         g.append(o)
 print(g[0],g[1])
-#dude_devs
