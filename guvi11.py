@@ -1,3 +1,4 @@
+d=int(input())
 s=list(map(int,input().split()))
 arr=[[]]
 arr3=[]
