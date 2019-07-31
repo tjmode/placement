@@ -1,4 +1,4 @@
-s=[1,2,3,4,5]
+s=list(map(int,input().split()))
 arr=[[]]
 arr3=[]
 for i in range(len(s)+1):
